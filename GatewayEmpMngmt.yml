@@ -11,9 +11,9 @@ spring:
       - id: Employee
       - uri: http://localhost:5555
         predicates:
-        - Path=/employee/**
+          - Path=/employee/**
         
       - id: Employee-Training
       - uri: http://localhost:4444
         predicates:
-        - Path=/employee/**
+          - Path=/employee/**
